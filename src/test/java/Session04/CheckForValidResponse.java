@@ -11,7 +11,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class CheckForValidResponse {
 	
-	@Test (enabled=false)
+	@Test (enabled=true)
 	public void GetSingleUser()
 	{
 		//Specify base url
