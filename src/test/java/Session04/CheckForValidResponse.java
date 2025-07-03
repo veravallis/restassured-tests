@@ -33,10 +33,11 @@ public class CheckForValidResponse {
 		
 		String StatusLine = response.getStatusLine();
 		Assert.assertEquals(StatusLine, "HTTP/1.1 200 OK","Correct status line received");
+		//src/test/java/Session04/CheckForValidResponse.java
 	}
 	
 	// Validate the response code and response line with "ValidatableResponse" variable
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void GetuserValidatableResponse()
 	{
 		RestAssured.baseURI = "https://reqres.in/api/users/2";
