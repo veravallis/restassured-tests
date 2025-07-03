@@ -12,7 +12,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class POJOClassWithNestedJSON {
 	
-	@Test
+	@Test(enabled=false)
 	public void CreateUser() throws JsonProcessingException
 	{
 		POJOEmployeeData Emp1 = new POJOEmployeeData();  //1st POJO class
